@@ -18,12 +18,12 @@ const illustration = {
 
 const greeting = {
   username: "SAKSHI",
-  title: "Hi all, I'm sakshi",
+  title: "Hi all, I'm sakshi.",
   subTitle: emoji(
-    "A passionate WEB3 developer🚀 ! "),
- // resumeLink:
+    "An aspiring  WEB3 developer🚀!Goal-oriented, responsible, and high-quality committed spirit. I am a developer and an educator with a keen interest in exploring new technologies and teaching mythologies.")
+    // resumeLink:
  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+ , displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -47,12 +47,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: " DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ WEB3 developer"
-    ),
-   // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji( "⚡An aspiring WEB3 developer"),
+   emoji("⚡ Programming Languages known : C ,C++ , JAVA ,SOLIDITY ,PYTHON ,PHP"),
    // emoji(
    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
    // )
@@ -70,18 +68,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
+    /*{
       skillName: "C",
       //fontAwesomeClassname: "fab C"
-    },
+    },*/
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    {
+  /*  {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
+    }, */
     /*{
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
@@ -102,19 +100,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    /*{
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },*/
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+
     /*{
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Solidity ",
+      //fontAwesomeClassname: "fas fa-fire"
+    },
+    
+    {
+      skillName: "C ,C++ ,JAVA ,",
+    //  fontAwesomeClassname: "fab fa-docker"
     }*/
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -125,13 +126,15 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Swami Rama Himalayan University",
-      //logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Computer Science",
+      //logo: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
+      subHeader: " Bachelor of Computer Application & Minors in Mathematics.",
       duration: "August 2017 -August 2020",
-      desc: "Data structure, Algorithm, Operating system, Cyber Security, Programming, Networking, Mathematics.",
+      desc: " Course Work  : Data structure, Algorithm, Operating system, Network Security,Data Base Management System,Cyber Security,Information Management System.Computer Organization and Architecture,Data Communication and Computer Network, Programming, Networking, Mathematics.",
       descBullets: [
         " Received a Certificate of merit and award for securing the first position in BCA in the university examination.",
-     //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+         "Programming Languages:C, C++, Java, Vb.net, Object-oriented programming.",
+          "Web Technologies: HTML, CSS, PHP, WordPress."
+
       ]
     },
     
@@ -169,10 +172,11 @@ const workExperiences = {
       company: "BJYUS",
       companylogo: require("/workspaces/sakshib-b/developerFolio/src/assets/images/byjus-logo.png"),
       date: "January 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Teaching ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Taking one to one session with 85% above satisfaction rate  ",
+        "One to many session with 4.5/5 above  rating ",
+        "Directly intercating with customer and student and resolving their issue"
       ]
     },
    
@@ -207,7 +211,7 @@ const bigProjects = {
       ]
     },
     {
-    //image: require("./assets/images/nextuLogo.webp"),
+   // image: require("developerFolio/src/assets/images/ nextuLogo.webp"),
       projectName: "ERC20 Token",
       projectDesc: "Developed a project that provides two smart contracts, one that implements an ERC20 token and another that allows users to sell/transfer their tokens. This project includes automated testing and a slim front for interacting with these contracts.Skills: solidity · JavaScript · VScode · GitHub · MetaMask · Web3 · Etherum · Blockchain",
       footerLink: [
@@ -230,56 +234,59 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
+{
+      title: "BLock chain Expert ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "by Algo Expert",
+     image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/logo.webp"),
+      imageAlt: "Blockchain Expert",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://certificate.algoexpert.io/BlockchainExpert%20Certificate%20BCE-2564a0d0c8"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "My Course Experience",
+          url: "https://www.linkedin.com/posts/activity-7080843606109863936-eMHp?utm_source=share&utm_medium=member_desktop"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Projects ",
+          url: "https://github.com/sakshib-b/EC20-token-"
         }
       ]
     },
+
     {
-      title: "Google Assistant Action",
+      title: "Certificate of merit in undergraduation degree",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        " ",
+     image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
+      imageAlt: "University",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Merit Certificate",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Extra Curriculum activites ",
+      subtitle: "Activities",
+      image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/EC.webp"),
+      imageAlt: "Logo",
       footerLink: [
         {name: "Certification", url: ""},
-        {
+       /* {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        }*/
       ]
     }
+
+  
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Blogs Section
