@@ -238,8 +238,8 @@ const achievementSection = {
       title: "BLock chain Expert ",
       subtitle:
         "by Algo Expert",
-     image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/logo.webp"),
-      imageAlt: "Blockchain Expert",
+    // image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/logo.webp"),
+    //  imageAlt: "Blockchain Expert",
       footerLink: [
         {
           name: "Certification",
@@ -260,8 +260,8 @@ const achievementSection = {
       title: "Certificate of merit in undergraduation degree",
       subtitle:
         " ",
-     image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
-      imageAlt: "University",
+     //image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
+     // imageAlt: "University",
       footerLink: [
         {
           name: "Merit Certificate",
@@ -273,8 +273,8 @@ const achievementSection = {
     {
       title: "Extra Curriculum activites ",
       subtitle: "Activities",
-      image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/EC.webp"),
-      imageAlt: "Logo",
+     // image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/EC.webp"),
+     // imageAlt: "Logo",
       footerLink: [
         {name: "Certification", url: ""},
        /* {
