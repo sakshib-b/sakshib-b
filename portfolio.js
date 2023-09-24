@@ -126,7 +126,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Swami Rama Himalayan University",
-      //logo: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
+      //logo: require("static/media/srhu logo.876db7e1db92d5652344.webp"),
       subHeader: " Bachelor of Computer Application & Minors in Mathematics.",
       duration: "August 2017 -August 2020",
       desc: " Course Work  : Data structure, Algorithm, Operating system, Network Security,Data Base Management System,Cyber Security,Information Management System.Computer Organization and Architecture,Data Communication and Computer Network, Programming, Networking, Mathematics.",
