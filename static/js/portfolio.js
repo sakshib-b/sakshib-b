@@ -260,7 +260,7 @@ const achievementSection = {
       title: "Certificate of merit in undergraduation degree",
       subtitle:
         " ",
-     image: require("/workspaces/sakshib-b/developerFolio/src/assets/images/srhu logo.webp"),
+     image: require("static/media/srhu logo.876db7e1db92d5652344.webp"),
       imageAlt: "University",
       footerLink: [
         {
