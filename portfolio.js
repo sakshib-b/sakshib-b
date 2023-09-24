@@ -170,7 +170,7 @@ const workExperiences = {
     {
       role: "Subject Matter Expert ",
       company: "BJYUS",
-      companylogo: require("/workspaces/sakshib-b/developerFolio/src/assets/images/byjus-logo.png"),
+      companylogo: require("static/media/byjus-logo.3615d8017cd72b7dda5b.png"),
       date: "January 2022 – Present",
       desc: "Teaching ",
       descBullets: [
